@@ -7,7 +7,7 @@
   <div class="sidePart">
     <div class="sidePart-inner">
       sidePart
-      <?php get_sidebar(); ?>
+      <?php //get_sidebar(); ?>
     </div>
   </div>
   <div class="mainPart">
@@ -16,12 +16,12 @@
         if (have_posts()) :
           while (have_posts()) :
             the_post();
-            echo "<li>";
-            echo "<a href='";
-            the_permalink();
-            echo "'>";
+             echo "<li>";
+            // echo "<a href='";
+            // the_permalink();
+            // echo "'>";
             the_title();
-            echo "</a>";
+            //echo "</a>";
             echo "</li>";
           endwhile;
         endif;

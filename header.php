@@ -15,6 +15,7 @@
       <a href="/wordpress">header</a>
     </div><!-- header end -->
 
+<!--
     <div class="menu">
       <?php
         wp_nav_menu( array(
@@ -25,3 +26,4 @@
         ) );
       ?>
     </div>
+-->
