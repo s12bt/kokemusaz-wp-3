@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*
+Theme Name: こけむさズWordPress部 第3回
+Theme URI: https://www.facebook.com/events/512267555486819/
+Author: kokemusaz WordPress club
+Author URI: https://www.facebook.com/groups/475483705853174/
+Description:
+Version: 3.0
+*/
+@import url('./css/reset.css');
+@import url('./css/common.css');
